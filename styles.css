@@ -130,7 +130,7 @@ footer p strong, footer div p {
 
 .align {
   display: grid;
-  grid-template-columns: 6% 13% 12% 13%;
+  grid-template-columns: 6% 13% 12%;
   align-items: flex-start;
   justify-content: flex-start;
 }
@@ -142,6 +142,11 @@ footer p strong, footer div p {
 
   main h2 {
     font-size: 25px;
+  }
+
+  .align {
+    grid-template-columns: 20% 40% 30%;
+    white-space: nowrap;
   }
 }
 
