@@ -96,8 +96,13 @@ main h2 {
   margin-right: 10px;
 }
 
-#detune, .pitch {
+#detune{
   display: none;
+}
+
+#pitch {
+  color: #555555 !important;
+  font-size: 20px !important;
 }
 
 footer {
